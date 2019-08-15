@@ -1,0 +1,96 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.cabecalho{
+    background-color: #117A25;
+    padding: 0px 0px 10px 0px;
+}
+.cabecalho_titulo{
+    color: white;
+    margin : -50px 30px 8px 82px;
+    font-size: 16px;
+}
+.cabecalho_titulo--menor{
+    color: white;
+    margin: -2px 74px 9px 81px;
+    font-size: 28px;
+}
+.rodape{
+    background-color: #00420C;
+    color: white;
+    padding: 20px;
+}
+
+.rodape img {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.rodape__texto{
+    margin: 10px 100px 15px 100px;
+    line-height: 1.5;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.sessaoConceito{
+width: 300px;
+height: 150px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background: #117A25;
+border-radius: 5px;
+margin: 80px auto;
+}
+    .sessaoConceito_Titulo{
+
+
+font-size: 22px;
+margin: 0 auto;
+color: #FFFFFF;
+padding: 5px;
+    }
+    .sessaoConceito_Nota{
+        width: 29px;
+height: 42px;
+left: 173px;
+top: 1113px;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 45px;
+margin: 14px auto;
+color: #FFFFFF;
+    }
+.sessaoArtigo {
+    margin: 40px auto;
+    
+}
+.sessaoArtigo_titulo{
+margin: 10px 100px 15px 100px;
+color: #00420C;
+text-align: center;
+font-size: 22px;
+
+
+}
+.sessaoArtigo_texto{
+margin: 10px 100px 15px 100px;
+}
+.sessaoArtigo_texto--nomeCoordenador{
+   text-align: center;
+    }
+.sessaoArtigo__lista{
+
+margin: 10px 100px 15px 120px;
+}
+.sessaoArtigo__imagem{
+  
+    border: 2px #000 solid ;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+

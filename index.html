@@ -9,17 +9,30 @@
 <body>
     <header class = "cabecalho">
         
-                <div>
-                 <span><a href="#"><img src="imagens/icone_menu.png" alt="icone de menu"></a></span>
+        <div class="container">
+            
+            
+            <div><a href="#"><img class = "cabecalho__imagem" src="imagens/icone_menu.png" alt="icone de menu"></a></div>
+            <div class = "cabecalho__informacoes">
             <div class = "cabecalho_titulo">Curso superior de Tecnologia em</div>
             <div class = "cabecalho_titulo--menor">Análise e desenvolvimento de Sistemas</div> 
        </div>
           
-      
-       
-      
+        </div>
+    
+      <nav > 
+              <ul class="cabecalho__menu container">
+                      <li class="cabecalho__menu-item">Inicio</li>
+                        <li class="cabecalho__menu-item">Disciplina</li>
+                        <li class="cabecalho__menu-item">Professores</li>
+                        <li class="cabecalho__menu-item">Contato</li>
+                </ul>
+        
+            </nav>
     </header>
-    <section class = "sessaoArtigo">
+    <div class = "corpo__artigos container">
+        <div>
+    <section class = "sessaoArtigo ">
         <article>
             <h1 class = "sessaoArtigo_titulo">Perfil profissional de conclusão</h1>
             <p class = "sessaoArtigo_texto">Analisa, projeta, desenvolve, testa, implanta e mantém sistemas computacionais
@@ -29,7 +42,9 @@
                 avalia, emite laudo e parecer técnico em sua área de formação</p>
         </article>
     </section>
-    <section class = "sessaoArtigo">
+</div>
+<div>
+    <section class = "sessaoArtigo ">
         <article>
             <h1 class = "sessaoArtigo_titulo">Campo de atuação</h1>
             <p class = "sessaoArtigo_texto">Empresas de planejamento, desenvolvimento de projetos, assistência técnica e consultoria.
@@ -42,7 +57,9 @@ Instituições de Ensino, mediante formação requerida pela legislação vigent
             </p>
         </article>
     </section>
-    <section class="sessaoArtigo">
+</div>
+<div>
+    <section class="sessaoArtigo ">
         <article>
             <h1 class = "sessaoArtigo_titulo">Processo Seletivo</h1>
                 <div class = "sessaoArtigo_texto">Entrada anual:
@@ -56,12 +73,14 @@ Instituições de Ensino, mediante formação requerida pela legislação vigent
             
         </article>
     </section>
-    <section class = "sessaoConceito">
+</div>
+<div class = "sessao__conceito-professor">
+    <section class = "sessaoConceito ">
        
         <div class = "sessaoConceito_Titulo">Conceito do Curso</div> 
         <div class = "sessaoConceito_Nota">4</div> 
     </section>
-    <section class="sessaoArtigo">
+    <section class="sessaoArtigo professor ">
        
                 <div class = "sessaoArtigo_titulo"><strong>Coordenador</strong></div>
                 
@@ -70,16 +89,20 @@ Instituições de Ensino, mediante formação requerida pela legislação vigent
                             <p class = "sessaoArtigo_texto--nomeCoordenador">Profº Juliano Fischer Naves</p>
        
     </section>
+</div>
+</div>
     <footer class = "rodape">
-        <img src="imagens/ifro_footer.png" alt="Logo do IFRO">
-        <div class="rodape__texto">
-            <div>IFRO Campus Vilhena</div>
-            <div>
-               Endereço: Rodovia BR-174, Km 3 S/n
-            </div>
-            <div>
-                Zona Urbana, Vilhena - RO, 76980-000
-                Telefone (69) 2101-0700
+        <div class = "container">
+            <img src="imagens/ifro_footer.png" alt="Logo do IFRO">
+            <div class="rodape__texto">
+                <div>IFRO Campus Vilhena</div>
+                <div>
+                   Endereço: Rodovia BR-174, Km 3 S/n
+                </div>
+                <div>
+                    Zona Urbana, Vilhena - RO, 76980-000
+                    Telefone (69) 2101-0700
+                </div>
             </div>
         </div>
     </footer>

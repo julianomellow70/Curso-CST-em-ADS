@@ -122,7 +122,7 @@ color: #FFFFFF;
 padding-bottom: 10px;
     }
 .sessaoArtigo {
-    margin: 40px auto;
+        margin: 40px auto;
     
 }
 
@@ -131,9 +131,15 @@ padding-bottom: 10px;
        margin-left: 0;
        margin-right: 0;
         }
+        .sessaoCoordenador{
+            margin-top: 20%;
+        }
+        .sessaoConceito{
+            margin-left: -20%;
+        }
 }
 .sessaoArtigo_titulo{
-margin: 10px 100px 15px 100px;
+
 color: #00420C;
 text-align: center;
 font-size: 22px;
@@ -145,6 +151,7 @@ margin: 10px 100px 15px 100px;
 }
 .sessaoArtigo_texto--nomeCoordenador{
    text-align: center;
+   margin-top: 10px;
     }
 .sessaoArtigo__lista{
 
@@ -155,7 +162,8 @@ margin: 10px 100px 15px 120px;
     border: 2px #000 solid ;
     border-radius: 5px;
     display: block;
-    margin: 10px auto;
+    margin-top: 10px;
+    text-align: center;
 }
 .corpo__artigos{
     margin-left: 10px;
@@ -165,22 +173,45 @@ margin: 10px 100px 15px 120px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
-        
-        
+    }
+    .sessaoArtigo__imagem{
+    margin-top: 96%;
+    
     }
 
     .sessaoArtigo{
-        max-width: 900px;
-        margin-left: 50px;
+        /* max-width: 900px;
+        margin-left: 50px; */
     }
 }
 
+
+.titulo-professor{ 
+    color: #00420C;
+    text-align: center;
+    font-size: 22px;
+        }
+
+@media (min-width: 1000px){
+    .sessoes__boxes{
+        display: flex;
+    }
+
+.titulo-professor{ 
+    margin-bottom: -96%;
+    margin-left: 20%;
+}
+.sessao__esquerdo{
+    margin-left: 10%;
+}
+
+    }
 @media (min-width: 1000px){
     .sessaoArtigo{
         margin:0px !important;
         max-width: 800px;
     }
+
     .sessaoArtigo_texto{
         margin:0px;
         line-height: 1.5;
@@ -194,14 +225,14 @@ margin: 10px 100px 15px 120px;
         
     }
     .sessao__conceito-professor{
-        margin:-674px 15px 206px 870px;
+       margin-left: 10%;
     }
     .sessaoConceito{
-        max-width: 300px;
-        max-height: 700px;
+        /* max-width: 300px;
+        max-height: 700px; */
     }
     .professor{
-        max-width: 250px !important;
+        /* max-width: 250px !important; */
     }
 }
 
